@@ -1,0 +1,53 @@
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 90vh;
+    background: rgb(0,130,115) url(logo_02.png) no-repeat ;
+    background-position: top;
+    background-position-y: 150px;
+}
+input,button{
+    padding: 15px;
+    margin-bottom: 10PX;
+    border-radius: 10px;
+    width:-webkit-fill-available;
+}
+button{
+    cursor: pointer;
+    background-color: rgb(0,134,117);
+    color: white;
+    transition: background 1s;
+}
+.enviar_Inf{
+    color: white;
+}
+.enviar_Inf:hover{
+background-color: transparent;
+color:yellow;
+border: solid white;
+transition: 1s;
+}
+form{
+    width: 300PX;
+}
+.h1{
+    display: flex;
+    text-align: center;
+    color: white;
+    
+
+}
+.caixa_De_Form{
+    padding: 10px 30px 45px 30px;
+    margin: 90 0 auto 0 ;
+    background-color: rgb(0,80,81);
+    border-radius: 10px;
+}
+
+.Email{
+    color: white;
+}
+
+

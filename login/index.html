@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title>Login-controle-de-compras</title>
+    <link rel="stylesheet" href="index.css" />
+   <script src="index.js"></script>
+  </head>
+   <body>
+    <form class="caixa_Do_Form">
+      <h1>controle de compras</h1>
+      <div>
+      <label>E-mail</label><br>
+      <input type="email" name="email" id="email" onchange="validacao()" placeholder="exemplo@gmail.com"/>
+      </div>
+      <div>
+      <label for="password">Senha</label><br>
+      <input type="password" name="password" id="password" placeholder="senha"/>
+      </div>
+      <div>
+      <button type="reset"class="solid"id="recover-password-button">Entrar</button>
+      </div>
+      <div>
+      <button type="button" class="outline" onclick="window.location.href='../conta/criar-conta.html'">Criar uma conta</button>
+      </div>
+      <div>
+      <button type="button" class="clear"  onclick="window.location.href='../recuperar-senha/recuperar.html'" id="recover-password-button" >Recuperar senha</button>
+      </div>
+    </form>
+
+   </body>
+   
+ </html>

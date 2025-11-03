@@ -1,0 +1,73 @@
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:   rgb(0,130,115) url(logo_02.png) no-repeat center;
+    background-position: top;
+    background-position-y:150px;
+    
+    height: 90vh;
+}
+input , button{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    width:-webkit-fill-available;
+}
+.clear{
+    background-color:transparent ;
+    border: none;
+    color: white;
+}
+.solid{
+    border:none ;
+    
+}
+.solid:hover{
+    background-color: transparent;
+    transition: 500MS;
+    border: 1px solid black;
+    border-color: white;
+}
+.outline{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.outline:hover{
+    background-color: transparent;
+    border-color: white;
+    transition: 500ms;
+}
+button{
+    cursor: pointer;
+}
+
+form{
+    width: 300px;
+}
+input{
+    border: none;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin: 60px;
+}
+.caixa_Do_Form{ 
+    background-color:rgb(0,80,81);
+    padding: 10px 30px 25px 30px;
+    margin: 30 0 auto 0 ;
+    border-radius: 10px;
+   
+}
+h1{
+    color: white;
+}
+label{
+    color: white;
+}
+
